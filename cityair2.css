@@ -1,0 +1,247 @@
+#cityair2{
+  /* position: absolute;
+  margin-left: 98px;
+  height: 56px;
+  display: none!important;*/
+}
+@media screen and (max-width: 1200px) {
+.index-news {
+  margin-top: 180px;
+}
+}
+@media screen and (max-width: 1023px) {
+.index-news {
+  margin-top: 180px;
+}
+}
+@media screen and (max-width: 768px) {
+.index-news {
+  margin-top: 180px;
+}
+}
+@media screen and (max-width: 340px) {
+.index-news {
+  margin-top: 0;
+}
+}
+
+
+@media all and (max-width: 340px) {
+  #cityair2{
+    display: none;
+  }
+}
+
+.ca2__main {
+  position: relative;
+  height: 100%;
+  /* width: 360px;*/
+  width: 100%;
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 21px;
+  max-height: 200px;
+
+    margin-top: -189px;
+    position: absolute;
+    margin-left: -20px;
+}
+
+
+@media all and (min-width: 768px) {
+  .ca2__main{
+    max-width: 360px;
+    margin-top: -189px;
+    max-width: 100%;
+  }
+}
+@media all and (min-width: 1202px) {
+  .index-news .ca2__main{
+    display: none;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .page-content > .ca2__main{
+    display: none;
+  }
+}
+
+
+@media all and (min-width: 1202px) {
+  @media all and (min-height: 840px) {
+    .page-content > .ca2__main{
+      display: none;
+    }
+    .index-news .ca2__main{
+      display: block;
+      position: absolute;
+      top: auto;
+      right: 0;
+      max-width: 380px;
+      margin-top: -189px;
+    }
+  }
+}
+
+@media all and (min-width: 1202px) {
+.page-content > .ca2__main{
+  max-width: 360px;
+  top: 105px;
+  position: absolute;
+  z-index: 10;
+  margin-top: 0;
+  margin-left: 0;
+}
+}
+
+.ca2__title{
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 1.331px 13.31px rgba(0, 0, 0, 0.12);
+  padding: 7px 16px;
+  color: #FFFFFF;
+}
+
+.ca2__date{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.ca2__more{
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 21px;
+  display: flex;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.ca2__more a{
+  color: #FFFFFF;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.ca2__more a:hover{
+  text-decoration: none;
+}
+
+.ca2__content{
+  background: linear-gradient(71.95deg, rgba(118, 203, 227, 0.87) 0.51%, rgba(91, 106, 255, 0.87) 97.32%);
+  box-shadow: 0px 1.331px 13.31px rgba(0, 0, 0, 0.12);
+  padding: 4px 23px;
+  color: #FFFFFF;
+}
+
+.ca2__row{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.ca2__item-data{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.ca2__item_temp{
+  display: flex;
+  align-items: flex-start;
+  margin-right: 15px;
+}
+
+.ca2__item_temp .ca2__item-data {
+  display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 61px;
+  letter-spacing: -0.736243px;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.ca2__item_temp .ca2__item-measure {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.736243px;
+  margin-top: 6px;
+}
+
+.ca2__item_rh,
+.ca2__item_p{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 14px;
+  margin-right: 16px;
+  align-items: flex-end;
+  margin-bottom: 9px;
+}
+.ca2__item_rh .ca2__item-title,
+.ca2__item_p .ca2__item-title{
+  min-width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.400132px;
+}
+.ca2__item_rh .ca2__item-data,
+.ca2__item_p .ca2__item-data{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.400132px;
+}
+
+.ca2__item_rh .ca2__item-measure,
+.ca2__item_p .ca2__item-measure{
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.400132px;
+  text-transform: lowercase;
+  margin-left: 5px;
+}
+
+.ca2__item_aqi{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: -0.361905px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ca2__item_aqi .ca2__item-title {
+  display: flex;
+}
+
+@media all and (min-width: 768px) {
+  .ca2__item_aqi .ca2__item-title {
+     max-width: 280px;
+  }
+}
+
+.ca2__item_aqi .ca2__comment{
+  min-width: 100%;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.316667px;
+  opacity: 0.7;
+  padding-top: 8px;
+  padding-bottom: 17px;
+}
+
